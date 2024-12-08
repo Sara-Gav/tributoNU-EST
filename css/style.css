@@ -1,0 +1,504 @@
+
+.Indice {
+    background-color:#E31C79;
+    color:#E31C79;
+    color:white;
+    font-family: sans-serif;
+    }
+
+a:hover {
+    color:#00313C; 
+}
+
+body{
+    background-color:#fdd8e9;
+    text-align:center
+}
+
+h1{
+    color:#00313C;
+    text-align: center;
+    font-size:50 px;
+}
+
+h2{ color: white;
+        text-align: center;
+        font-size: 35 px;
+        width: 30%;
+        margin: 0 auto;
+        padding: 10px;
+        background-color: #392c4b;
+        border-radius: 8px;
+  }
+h3{ color:white;
+        text-align: center;
+        font-size: 35 px;
+        width: 30%;
+        margin: 0 auto;
+        padding: 10px;
+        background-color: #72275b;
+        border-radius: 8px;
+        
+   }
+#Introduccion {
+    text-align: justify;
+    padding: 20px;
+    color: black;
+    font-family:Georgia;
+    font-size: 20px;
+}
+    
+#destacados{
+    text-align: left;
+    padding: 10px;
+    width: 20%;
+    margin: 40 auto;
+    background-color: #00313C;
+    color: white;
+    font-family:'Trebuchet MS';
+    font-size: 20px;
+}
+#info_final{
+    text-align: left;
+    padding: 10px;
+    width: 20%;
+    margin: 40 auto;
+    background-color: #00313C;
+    color: white;
+    font-family:'Trebuchet MS';
+    font-size: 20px;
+}
+#Miembros {
+    text-align: center;
+}
+
+.imageninicio{
+    padding: 0px;
+    text-align: left;
+    padding: 10px;
+    width: 30%;
+    height: 15%;
+    margin: 30 auto;
+    background-color: #00313C;
+    color: white;
+    font-family:'Trebuchet MS';
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    gap: 20px;
+}
+.card{
+    border-radius: 20px;
+    margin-left: 20px;
+    height: 500px;
+    background-color: beige;
+    flex: 2;
+    transition: .3s all ease;
+    overflow: hidden;
+    
+}
+.card:hover{
+    flex: 3;
+    background-color: #00313C;
+    
+}
+.card-img{
+    width: 110%;
+    height: 100%;
+    display: block;
+    border-radius: 20px 20px 0 0;
+}
+.card-text {
+    margin-top: 10px;
+    color: #E31C79;
+    font-family: 'Trebuchet MS';
+    font-size: 18px
+}
+
+#Biografia{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 40 px;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #963e7b;
+    color: black
+}
+   
+#debut{
+    font-family: sans-serif ;
+    text-align: center;
+    font-size: 35 px;
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #136477;
+    color: black
+
+    
+}
+#nuest_M{
+    font-family: sans-serif ;
+    text-align: center;
+    font-size: 35 px;
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #963e7b;
+    color: black
+}
+#canvas{
+    font-family: sans-serif ;
+    text-align: center;
+    font-size: 35 px;
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #136477;
+    color: black
+}
+#produce{
+    font-family: sans-serif ;
+    text-align: center;
+    font-size: 35 px;
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #963e7b;
+    color: black
+}
+#disolucion{
+    font-family: sans-serif ;
+    text-align: center;
+    font-size: 35 px;
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #136477;
+    color: black
+}
+.footer{
+background-color: #E31C79;
+    color: white;
+    text-align: left;
+    font-family: cursive;
+    
+}
+#discografia{
+    width: 60%; 
+    margin: 60px auto; 
+    color: #00313C;
+    font-family: Georgia;
+    font-size: 20px;
+   
+}
+
+.item {
+    display: flex; 
+    align-items: center;
+    gap: 20px; 
+    margin-bottom: 15px; 
+img {
+    width: 200px; 
+    height: 200px;
+}
+}
+
+#galeria_principal{
+    font-size: 20px;
+    font-family: Georgia;
+}
+#actualizacion{
+    font-size: 20px;
+    font-family: Georgia;
+    gap: 20px; 
+    margin-bottom: 15px;
+}
+
+
+@media(min-width:480px){
+    body{
+        flex-direction: row;
+    }
+
+    img{
+            padding: 0px;
+            text-align: left;
+            padding: 10px;
+            width: 60%;
+            height: 30%;
+            margin: 30 auto;
+            background-color: #00313C;
+            color: white;
+            font-family:'Trebuchet MS';
+            font-size: 20px;
+    }
+
+    section#destacados{
+            text-align: left;
+            padding: 0px;
+            width: 70%;
+            margin: 75 auto;
+            background-color: #00313C;
+            color: white;
+            font-family:'Trebuchet MS';
+            font-size: 20px;
+    }
+    .container{
+        display: flex;
+        gap: 5px;
+    }
+    .card{
+        border-radius: 10px;
+        margin-left: 10px;
+        height: 350px;
+        background-color: beige;
+        flex: 2;
+        transition: .3s all ease;
+        overflow: hidden;
+        
+    }
+    .card:hover{
+        flex: 3;
+        background-color: #00313C;
+        
+    }
+    .card-img{
+        width: 120%;
+        height: 90%;
+        display: block;
+        border-radius: 20px 20px 0 0;
+    }
+    .card-text {
+        margin-top: 10px;
+        color: #E31C79;
+        font-family: 'Trebuchet MS';
+        font-size: 10px
+    }
+    #info_final{
+        text-align: left;
+        padding: 10px;
+        width: 40%;
+        margin: 20 auto;
+        background-color: #00313C;
+        color: white;
+        font-family:'Trebuchet MS';
+        font-size: 20px;
+    }
+
+    #Biografia{
+        font-family: sans-serif;
+        text-align: center;
+        font-size: 40 px;
+        width: 70%;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #963e7b;
+        color: black
+    }
+       
+    #debut{
+        font-family: sans-serif ;
+        text-align: center;
+        font-size: 35 px;
+        width: 70%;
+        margin: 0 auto;
+        padding: 10px;
+        border-radius: 8px;
+        background-color: #136477;
+        color: black
+    
+        
+    }
+    #nuest_M{
+        font-family: sans-serif ;
+        text-align: center;
+        font-size: 35 px;
+        width: 70%;
+        margin: 0 auto;
+        padding: 10px;
+        border-radius: 8px;
+        background-color: #963e7b;
+        color: black
+    }
+    #canvas{
+        font-family: sans-serif ;
+        text-align: center;
+        font-size: 35 px;
+        width: 70%;
+        margin: 0 auto;
+        padding: 10px;
+        border-radius: 8px;
+        background-color: #136477;
+        color: black
+    }
+    #produce{
+        font-family: sans-serif ;
+        text-align: center;
+        font-size: 35 px;
+        width: 70%;
+        margin: 0 auto;
+        padding: 10px;
+        border-radius: 8px;
+        background-color: #963e7b;
+        color: black
+    }
+    #disolucion{
+        font-family: sans-serif ;
+        text-align: center;
+        font-size: 35 px;
+        width: 70%;
+        margin: 0 auto;
+        padding: 10px;
+        border-radius: 8px;
+        background-color: #136477;
+        color: black
+    }
+        
+    }
+    #discografia{
+        width: 80%; 
+        margin: 30px auto; 
+        color: #00313C;
+        font-family: Georgia;
+        font-size: 20px;
+        text-align: center;
+       
+    }
+    
+    .item {
+        display: flex; 
+        align-items: center;
+        gap: 20px; 
+        margin-bottom: 15px; 
+    img {
+        width: 200px; 
+        height: 200px;
+    }
+} 
+    
+    #galeria_principal{
+        font-size: 20px;
+        font-family: Georgia;
+    }
+    #actualizacion{
+        font-size: 20px;
+        font-family: Georgia;
+        gap: 20px; 
+        margin-bottom: 15px;
+    }
+    
+    h2{ color: white;
+        text-align: center;
+        font-size: 20 px;
+        width: 45%;
+        margin: 0 auto;
+        padding: 10px;
+        background-color: #392c4b;
+        border-radius: 8px;
+
+}
+
+
+@media(min-width:768px){
+    body{
+        flex-direction: row;
+    }
+    .container{
+    display: flex;
+    gap: 20px;
+}
+.card{
+    border-radius: 20px;
+    margin-left: 20px;
+    height: 500px;
+    background-color: beige;
+    flex: 2;
+    transition: .3s all ease;
+    overflow: hidden;
+    
+}
+.card:hover{
+    flex: 3;
+    background-color: #00313C;
+    
+}
+.card-img{
+    width: 110%;
+    height: 100%;
+    display: block;
+    border-radius: 20px 20px 0 0;
+}
+.card-text {
+    margin-top: 10px;
+    color: #E31C79;
+    font-family: 'Trebuchet MS';
+    font-size: 14px
+}
+img {
+    width: 350px; 
+    height: 300px;
+
+}
+
+@media(min-width:1024px){
+    body{
+        flex-direction: row;
+        
+    }
+    
+    .container{
+        display: flex;
+        gap: 20px;
+    }
+    .card{
+        border-radius: 20px;
+        margin-left: 20px;
+        height: 500px;
+        background-color: beige;
+        flex: 2;
+        transition: .3s all ease;
+        overflow: hidden;
+        
+    }
+    .card:hover{
+        flex: 3;
+        background-color: #00313C;
+        
+    }
+    .card-img{
+        width: 110%;
+        height: 100%;
+        display: block;
+        border-radius: 20px 20px 0 0;
+    }
+    .card-text {
+        margin-top: 10px;
+        color: #E31C79;
+        font-family: 'Trebuchet MS';
+        font-size: 16px
+    }
+    img {
+        width: 450px; 
+        height: 380px;
+    }
+    .Indice {
+        background-color:#E31C79;
+        color:#E31C79;
+        color:white;
+        font-family: sans-serif;
+        font-size: 20px;
+        
+        
+       }
+    }
+}
